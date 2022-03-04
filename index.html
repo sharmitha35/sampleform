@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+</head>
+<style>
+fieldset {
+  background-color: powderblue;
+  border-style: solid;
+  border-width: 5px;
+}
+</style>
+<body>
+<center><h1>KONGU ENGINEERING COLLEGE</h1></center>
+<form>
+ <fieldset>
+ <legend>Personal Information</legend>
+FIRST NAME*:<br>
+<input type="text"><br></br>
+LAST NAME*:<br>
+<input type="text"><br></br>
+GENDER:
+<br></br>
+<input type="radio" name="gender" />
+FEMALE:
+<input type="radio" name="gender" />
+MALE:
+<br></br>
+ <label for="DOB">DOB:</label>
+  <input type="date" id="DOB" name="DOB">
+  <br></br>
+ ENTER YOUR EMAIL ID:<br>
+ <input type="email"  />
+  <br></br>
+  ENTER YOUR PASSWORD:<br>
+ <input type="password"  />
+  <br></br>
+   CONTACT:<br>
+<input type="text"><br></br>
+  <label>CHOOSE A DEPARTMENT:</label>
+ <select id="DEPT" name="DEPT" size="2" multiple>
+    <option >IT</option>
+    <option >CSE</option>
+    <option >ECE</option>
+    <option >EEE</option>
+  </select>
+ <br></br>
+  KNOWN LANGUAGE:
+<br></br>
+<input type="checkbox" />
+C
+<input type="checkbox" />
+JAVA
+<input type="checkbox" />
+PYTHON
+<input type="checkbox" />
+C++
+<input type="checkbox" />
+HTML
+<br></br>
+
+UPLOAD PHOTO:
+<input type="file">
+   <br></br>
+  ADDRESS:<br>
+ <textarea rows="10" cols="50"></textarea>
+  <br></br>
+  CITY:<br>
+<input type="text"><br></br>
+PINCODE:<br>
+<input type="number" /><br></br>
+  <label for="state">SELECT STATE:</label><br>
+  <select id="state" name="state">
+    <option value="TAMILNADU">TAMILNADU</option>
+    <option value="KERALA">KERALA</option>
+    <option value="KARNATAKA">KARNATAKA</option>
+    <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+  </select>
+    <br></br>
+<input type="submit" value="Submit" />
+<br></br>
+<input type="reset" value="Reset" />
+ </fieldset>
+</form>
+</body>
+</html>
+
